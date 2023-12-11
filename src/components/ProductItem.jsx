@@ -3,6 +3,7 @@ import {colors} from '../global/colors'
 
 const ProductItem = ({ product }) => {
     return (
+
       <View style={styles.containerProductItem}>
         <Text style={styles.productTitle}>{product.title}</Text>
         <Image
